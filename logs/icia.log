@@ -1,0 +1,860 @@
+[2021-03-23 14:12:23.220] [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+[2021-03-23 14:12:23.818] [main] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext
+[2021-03-23 14:12:24.781] [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 13 bean definitions from ServletContext resource [/WEB-INF/config/spring/root-context.xml]
+[2021-03-23 14:12:25.251] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+[2021-03-23 14:12:25.771] [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2021-03-23 14:12:26.334] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-03-23 14:12:26.525] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-03-23 14:12:26.545] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+[2021-03-23 14:12:26.546] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-03-23 14:12:26.555] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-03-23 14:12:26.566] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-03-23 14:12:26.599] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+[2021-03-23 14:12:26.919] [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3ed3990d]
+[2021-03-23 14:12:26.927] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'env'
+[2021-03-23 14:12:27.077] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[2021-03-23 14:12:27.094] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+[2021-03-23 14:12:27.318] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hikariConfig'
+[2021-03-23 14:12:28.158] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+[2021-03-23 14:12:30.943] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+[2021-03-23 14:12:32.705] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionTemplate'
+[2021-03-23 14:12:32.782] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+[2021-03-23 14:12:32.929] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+[2021-03-23 14:12:33.035] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mailSender'
+[2021-03-23 14:12:33.199] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'adminDao'
+[2021-03-23 14:12:33.249] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardDao'
+[2021-03-23 14:12:33.252] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberDAO'
+[2021-03-23 14:12:33.255] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'planDateDao'
+[2021-03-23 14:12:33.257] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'planMakeDao'
+[2021-03-23 14:12:33.259] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qnaDao'
+[2021-03-23 14:12:33.262] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao'
+[2021-03-23 14:12:33.263] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userDao2'
+[2021-03-23 14:12:33.365] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[2021-03-23 14:12:33.371] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[2021-03-23 14:12:33.372] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[2021-03-23 14:12:33.373] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[2021-03-23 14:12:33.384] [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext initialized in 10049 ms
+[2021-03-23 14:12:33.512] [main] DEBUG o.s.w.filter.CharacterEncodingFilter - Filter 'encodingFilter' configured for use
+[2021-03-23 14:12:33.647] [main] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2021-03-23 14:12:33.647] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+[2021-03-23 14:12:33.648] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.
+[2021-03-23 14:12:33.648] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.active]
+[2021-03-23 14:12:33.650] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.active]을(를) 찾을 수 없습니다.. Returning null.
+[2021-03-23 14:12:33.650] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+[2021-03-23 14:12:33.651] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.
+[2021-03-23 14:12:33.651] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.default]
+[2021-03-23 14:12:33.652] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.profiles.default]을(를) 찾을 수 없습니다.. Returning null.
+[2021-03-23 14:12:33.665] [main] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet'
+[2021-03-23 14:12:34.315] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\AdminService.class]
+[2021-03-23 14:12:34.318] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\HiBoardService.class]
+[2021-03-23 14:12:34.322] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\MemberSerivceImpl.class]
+[2021-03-23 14:12:34.327] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\PlanDateService.class]
+[2021-03-23 14:12:34.330] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\PlanMakeService.class]
+[2021-03-23 14:12:34.332] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\QnaService.class]
+[2021-03-23 14:12:34.335] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\UserService.class]
+[2021-03-23 14:12:34.338] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\service\UserService2.class]
+[2021-03-23 14:12:34.382] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\AdminController.class]
+[2021-03-23 14:12:34.389] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\HiBoardController.class]
+[2021-03-23 14:12:34.392] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\IndexController.class]
+[2021-03-23 14:12:34.395] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\MemberController.class]
+[2021-03-23 14:12:34.398] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\PlanDateController.class]
+[2021-03-23 14:12:34.410] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\PlanMakeController.class]
+[2021-03-23 14:12:34.413] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\QnaController.class]
+[2021-03-23 14:12:34.418] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\TravelController.class]
+[2021-03-23 14:12:34.421] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\UserController.class]
+[2021-03-23 14:12:34.426] [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\project\webapps\hiboard\src\main\webapp\WEB-INF\classes\com\icia\web\controller\UserController2.class]
+[2021-03-23 14:12:34.432] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[2021-03-23 14:12:34.433] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[2021-03-23 14:12:34.434] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'mvcUriComponentsContributor' with a different definition: replacing [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Root bean: class [org.springframework.web.servlet.config.AnnotationDrivenBeanDefinitionParser$CompositeUriComponentsContributorFactoryBean]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+[2021-03-23 14:12:34.476] [main] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 55 bean definitions from ServletContext resource [/WEB-INF/config/spring/servlet-context.xml]
+[2021-03-23 14:12:34.712] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2021-03-23 14:12:35.214] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+[2021-03-23 14:12:35.214] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+[2021-03-23 14:12:35.216] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+[2021-03-23 14:12:35.217] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+[2021-03-23 14:12:35.222] [main] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.DelegatingThemeSource@63d478a7]
+[2021-03-23 14:12:35.223] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+[2021-03-23 14:12:35.287] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+[2021-03-23 14:12:35.538] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcCorsConfigurations'
+[2021-03-23 14:12:35.539] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#0'
+[2021-03-23 14:12:35.547] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#0'
+[2021-03-23 14:12:35.941] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#1'
+[2021-03-23 14:12:35.943] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.format.support.FormattingConversionServiceFactoryBean#1'
+[2021-03-23 14:12:35.946] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#2'
+[2021-03-23 14:12:35.962] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#3'
+[2021-03-23 14:12:36.031] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.MappedInterceptor#4'
+[2021-03-23 14:12:36.060] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:36.061] [main] DEBUG c.i.web.interceptor.AuthInterceptor - # AuthInterceptor                                                          #
+[2021-03-23 14:12:36.061] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:36.061] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.062] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Auth Cookie Name                             //
+[2021-03-23 14:12:36.062] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // USER_ID2
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Ajax Header Name                             //
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.063] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // AJAX
+[2021-03-23 14:12:36.064] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.067] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.067] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // Auth Exclude Url                             //
+[2021-03-23 14:12:36.067] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.092] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /index
+[2021-03-23 14:12:36.093] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /mainHome
+[2021-03-23 14:12:36.094] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /member/email
+[2021-03-23 14:12:36.094] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /member/join_injeung
+[2021-03-23 14:12:36.094] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /member/auth.do
+[2021-03-23 14:12:36.094] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /board/list
+[2021-03-23 14:12:36.094] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /board/customerList
+[2021-03-23 14:12:36.095] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /board/view
+[2021-03-23 14:12:36.095] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/login2
+[2021-03-23 14:12:36.095] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/loginOut2
+[2021-03-23 14:12:36.095] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/regForm2
+[2021-03-23 14:12:36.095] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/regProc2
+[2021-03-23 14:12:36.096] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /user/idCheck2
+[2021-03-23 14:12:36.096] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /admin/login2
+[2021-03-23 14:12:36.096] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /admin/logOut2
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /admin/index
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /admin/adminHome
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/jeju
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/busan
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/incheon
+[2021-03-23 14:12:36.097] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/seoul
+[2021-03-23 14:12:36.099] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/gyeongju
+[2021-03-23 14:12:36.101] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/gapyeong
+[2021-03-23 14:12:36.101] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/banner1
+[2021-03-23 14:12:36.101] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/banner2
+[2021-03-23 14:12:36.101] [main] DEBUG c.i.web.interceptor.AuthInterceptor - // /travel/design/useMethod
+[2021-03-23 14:12:36.102] [main] DEBUG c.i.web.interceptor.AuthInterceptor - //////////////////////////////////////////////////
+[2021-03-23 14:12:36.102] [main] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:36.239] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userService2'
+[2021-03-23 14:12:36.268] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'adminService'
+[2021-03-23 14:12:36.485] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 73 mappings in 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping'
+[2021-03-23 14:12:36.486] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter'
+[2021-03-23 14:12:37.400] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: none
+[2021-03-23 14:12:37.783] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+[2021-03-23 14:12:37.795] [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: none
+[2021-03-23 14:12:37.838] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
+[2021-03-23 14:12:38.008] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: none
+[2021-03-23 14:12:38.011] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
+[2021-03-23 14:12:38.092] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
+[2021-03-23 14:12:38.104] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
+[2021-03-23 14:12:38.157] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
+[2021-03-23 14:12:38.159] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
+[2021-03-23 14:12:38.159] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardService'
+[2021-03-23 14:12:38.172] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberSerivceImpl'
+[2021-03-23 14:12:38.179] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'planDateService'
+[2021-03-23 14:12:38.183] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'planMakeService'
+[2021-03-23 14:12:38.187] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qnaService'
+[2021-03-23 14:12:38.193] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userService'
+[2021-03-23 14:12:38.201] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'adminController'
+[2021-03-23 14:12:38.207] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'hiBoardController'
+[2021-03-23 14:12:38.258] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'indexController'
+[2021-03-23 14:12:38.261] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'memberController'
+[2021-03-23 14:12:38.264] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mailSender'
+[2021-03-23 14:12:38.290] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'PlanDateController'
+[2021-03-23 14:12:38.292] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'PlanMakeController'
+[2021-03-23 14:12:38.295] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'qnaController'
+[2021-03-23 14:12:38.299] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'TravelController'
+[2021-03-23 14:12:38.301] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userController'
+[2021-03-23 14:12:38.302] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'userController2'
+[2021-03-23 14:12:38.304] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#1'
+[2021-03-23 14:12:38.353] [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: none
+[2021-03-23 14:12:38.355] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#1'
+[2021-03-23 14:12:38.355] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#1'
+[2021-03-23 14:12:38.356] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+[2021-03-23 14:12:38.356] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+[2021-03-23 14:12:38.357] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+[2021-03-23 14:12:38.358] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2021-03-23 14:12:38.436] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+[2021-03-23 14:12:38.458] [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/resources/**] in 'org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0'
+[2021-03-23 14:12:38.459] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.view.BeanNameViewResolver#0'
+[2021-03-23 14:12:38.498] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'internalResourceViewResolver'
+[2021-03-23 14:12:38.592] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fileDownloadView'
+[2021-03-23 14:12:38.601] [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'multipartResolver'
+[2021-03-23 14:12:38.801] [main] DEBUG o.s.web.servlet.DispatcherServlet - Detected CommonsMultipartResolver
+[2021-03-23 14:12:38.836] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
+[2021-03-23 14:12:38.837] [main] DEBUG o.s.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.
+[2021-03-23 14:12:38.838] [main] DEBUG o.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
+[2021-03-23 14:12:38.839] [main] DEBUG o.s.jndi.JndiPropertySource - JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain]은(는) 이 컨텍스트에 바인딩되지 않았습니다. [spring.liveBeansView.mbeanDomain]을(를) 찾을 수 없습니다.. Returning null.
+[2021-03-23 14:12:38.840] [main] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2021-03-23 14:12:38.840] [main] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5193 ms
+[2021-03-23 14:12:58.951] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "FORWARD" dispatch for GET "/mainHome", parameters={}
+[2021-03-23 14:12:58.973] [http-nio-8088-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.icia.web.controller.IndexController#mainHome(ModelMap, HttpServletRequest, HttpServletResponse)
+[2021-03-23 14:12:59.005] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:59.005] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging start [/mainHome]
+[2021-03-23 14:12:59.006] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:59.022] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - 
+////////////////////////////////////////////////////////////////////////////////
+[Remote IP] : [127.0.0.1]
+[Locale]    : [ko_KR]
+[URL]       : [http://travel.icia.co.kr:8088/mainHome]
+[URI]       : [/mainHome]
+[Method]    : [GET]
+[Protocol]  : [HTTP/1.1]
+[Referer]   : []
+////////////////////////////////////////////////////////////////////////////////
+// Headers                                                                      
+////////////////////////////////////////////////////////////////////////////////
+[host] : [travel.icia.co.kr:8088]
+[connection] : [keep-alive]
+[upgrade-insecure-requests] : [1]
+[user-agent] : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36]
+[accept] : [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[accept-encoding] : [gzip, deflate]
+[accept-language] : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[cookie] : [_gcl_au=1.1.712453762.1615095740; _fbp=fb.2.1615095740305.415577705; _ga=GA1.3.1944794745.1599895984; _ga_K1MBH8GF2W=GS1.1.1615102464.5.0.1615102464.60]
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Get Parameters                                                               
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+
+[2021-03-23 14:12:59.022] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:59.022] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:12:59.413] [http-nio-8088-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:12:59.515] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==>  Preparing: SELECT USER_ID2, NVL(USER_PWD2, '') AS USER_PWD2, NVL(USER_NAME2, '') AS USER_NAME2, NVL(USER_EMAIL2, '') AS USER_EMAIL2, NVL(STATUS2, 'N') AS STATUS2, NVL(TO_CHAR(REG_DATE2, 'YYYY.MM.DD HH24:MI:SS'), '') AS REG_DATE2, NVL(GENDER2, '') AS GENDER2, NVL(USER_BIRTH2, '') AS USER_BIRTH2 FROM TBL_USER2 WHERE USER_ID2 = ?
+[2021-03-23 14:13:00.090] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==> Parameters: (String)
+[2021-03-23 14:13:00.270] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - <==      Total: 0
+[2021-03-23 14:13:00.341] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name '/travel/mainHome', model {user2=null}
+[2021-03-23 14:13:00.372] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/views/travel/mainHome.jsp]
+[2021-03-23 14:13:00.476] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:00.476] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging end                                                              #
+[2021-03-23 14:13:00.477] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:00.477] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # [request url]          : [/mainHome]
+[2021-03-23 14:13:00.480] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # [elapse time (second)] : [1.471]
+[2021-03-23 14:13:00.480] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:00.481] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "FORWARD" dispatch, status 200
+[2021-03-23 14:13:00.992] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/css/bootstrap.min.css", parameters={}
+[2021-03-23 14:13:00.992] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/icofont.min.css", parameters={}
+[2021-03-23 14:13:01.004] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.css", parameters={}
+[2021-03-23 14:13:01.008] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/assets/owl.carousel.min.css", parameters={}
+[2021-03-23 14:13:01.009] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/style.css", parameters={}
+[2021-03-23 14:13:01.012] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/line-awesome/css/line-awesome.min.css", parameters={}
+[2021-03-23 14:13:01.073] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.073] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.073] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.074] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.073] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.074] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.322] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.325] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.327] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.330] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.327] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.342] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/icia.common.js", parameters={}
+[2021-03-23 14:13:01.344] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.346] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/jquery-3.5.1.min.js", parameters={}
+[2021-03-23 14:13:01.348] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.349] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.351] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:01.358] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:01.372] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.352] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:01.351] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:01.375] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.359] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.376] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.701] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.705] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.711] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.718] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.732] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.737] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:01.813] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:01.812] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:01.817] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.817] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.854] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:01.856] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.864] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/main.js", parameters={}
+[2021-03-23 14:13:01.866] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:01.951] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:01.955] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.029] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:02.033] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.129] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.175] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.192] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.209] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.262] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:02.263] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.283] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.302] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.320] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.345] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:02.347] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.351] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery-sticky/jquery.sticky.js", parameters={}
+[2021-03-23 14:13:02.354] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.358] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/venobox/venobox.min.js", parameters={}
+[2021-03-23 14:13:02.361] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.414] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/waypoints/jquery.waypoints.min.js", parameters={}
+[2021-03-23 14:13:02.415] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.418] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/counterup/counterup.min.js", parameters={}
+[2021-03-23 14:13:02.419] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.438] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:02.441] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.554] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.557] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:02.561] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.608] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.640] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.654] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.663] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.667] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:02.668] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.670] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/js/main.js", parameters={}
+[2021-03-23 14:13:02.671] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.673] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/jeju.png", parameters={}
+[2021-03-23 14:13:02.674] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.678] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/busan.png", parameters={}
+[2021-03-23 14:13:02.679] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.695] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.731] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.738] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/gapyeong.png", parameters={}
+[2021-03-23 14:13:02.739] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/incheon.png", parameters={}
+[2021-03-23 14:13:02.740] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.740] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.766] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.782] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.788] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.792] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.800] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/gyeongju.png", parameters={}
+[2021-03-23 14:13:02.802] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.824] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:02.807] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/seoul.png", parameters={}
+[2021-03-23 14:13:02.826] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.282] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:02.839] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/cc.png", parameters={}
+[2021-03-23 14:13:02.843] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/hanBanner.jpg", parameters={}
+[2021-03-23 14:13:03.282] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/bb.png", parameters={}
+[2021-03-23 14:13:03.283] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/aa.png", parameters={}
+[2021-03-23 14:13:03.284] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.284] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.285] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.285] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.327] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.330] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.336] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/travel.png", parameters={}
+[2021-03-23 14:13:03.337] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/fonts/icofont.woff2", parameters={}
+[2021-03-23 14:13:03.339] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.340] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.337] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.338] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.340] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.390] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.395] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.537] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:03.637] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/favicon3.png", parameters={}
+[2021-03-23 14:13:03.639] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:03.686] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.481] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/index", parameters={}
+[2021-03-23 14:13:05.483] [http-nio-8088-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.icia.web.controller.IndexController#index(HttpServletRequest, HttpServletResponse)
+[2021-03-23 14:13:05.483] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.483] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging start [/index]
+[2021-03-23 14:13:05.483] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.484] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - 
+////////////////////////////////////////////////////////////////////////////////
+[Remote IP] : [127.0.0.1]
+[Locale]    : [ko_KR]
+[URL]       : [http://travel.icia.co.kr:8088/index]
+[URI]       : [/index]
+[Method]    : [GET]
+[Protocol]  : [HTTP/1.1]
+[Referer]   : [http://travel.icia.co.kr:8088/]
+////////////////////////////////////////////////////////////////////////////////
+// Headers                                                                      
+////////////////////////////////////////////////////////////////////////////////
+[host] : [travel.icia.co.kr:8088]
+[connection] : [keep-alive]
+[upgrade-insecure-requests] : [1]
+[user-agent] : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36]
+[accept] : [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[referer] : [http://travel.icia.co.kr:8088/]
+[accept-encoding] : [gzip, deflate]
+[accept-language] : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[cookie] : [_gcl_au=1.1.712453762.1615095740; _fbp=fb.2.1615095740305.415577705; _ga=GA1.3.1944794745.1599895984; _ga_K1MBH8GF2W=GS1.1.1615102464.5.0.1615102464.60; JSESSIONID=093FF77739603CCE938763BEA4A47947]
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Get Parameters                                                               
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+
+[2021-03-23 14:13:05.484] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.484] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.485] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.view.JstlView - View name '/index', model {}
+[2021-03-23 14:13:05.486] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/views/index.jsp]
+[2021-03-23 14:13:05.562] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.562] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging end                                                              #
+[2021-03-23 14:13:05.563] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.563] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - # [request url]          : [/index]
+[2021-03-23 14:13:05.563] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - # [elapse time (second)] : [0.079]
+[2021-03-23 14:13:05.563] [http-nio-8088-exec-2] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:05.563] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.755] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/css/bootstrap.min.css", parameters={}
+[2021-03-23 14:13:05.761] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.762] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/icofont.min.css", parameters={}
+[2021-03-23 14:13:05.766] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.767] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.css", parameters={}
+[2021-03-23 14:13:05.767] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/line-awesome/css/line-awesome.min.css", parameters={}
+[2021-03-23 14:13:05.768] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/assets/owl.carousel.min.css", parameters={}
+[2021-03-23 14:13:05.770] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.769] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.770] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.796] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/style.css", parameters={}
+[2021-03-23 14:13:05.799] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.824] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.826] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/jquery-3.5.1.min.js", parameters={}
+[2021-03-23 14:13:05.828] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.835] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.839] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.859] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.877] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.882] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.891] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/icia.common.js", parameters={}
+[2021-03-23 14:13:05.892] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.895] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:05.897] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.903] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.912] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:05.914] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.934] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.947] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:05.951] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.948] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:05.948] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:05.962] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.951] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:05.958] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:05.962] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.967] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:05.965] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.970] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:05.983] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.012] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.014] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.020] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/main.js", parameters={}
+[2021-03-23 14:13:06.023] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:06.044] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.059] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.070] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.075] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:06.319] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/travel.png", parameters={}
+[2021-03-23 14:13:06.324] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:06.346] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:10.189] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/user/login2", parameters={masked}
+[2021-03-23 14:13:10.199] [http-nio-8088-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.icia.web.controller.UserController2#login2(HttpServletRequest, HttpServletResponse)
+[2021-03-23 14:13:10.200] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.200] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging start [/user/login2]
+[2021-03-23 14:13:10.200] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.201] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - 
+////////////////////////////////////////////////////////////////////////////////
+[Remote IP] : [127.0.0.1]
+[Locale]    : [ko_KR]
+[URL]       : [http://travel.icia.co.kr:8088/user/login2]
+[URI]       : [/user/login2]
+[Method]    : [POST]
+[Protocol]  : [HTTP/1.1]
+[Referer]   : [http://travel.icia.co.kr:8088/index]
+////////////////////////////////////////////////////////////////////////////////
+// Headers                                                                      
+////////////////////////////////////////////////////////////////////////////////
+[host] : [travel.icia.co.kr:8088]
+[connection] : [keep-alive]
+[content-length] : [35]
+[accept] : [*/*]
+[x-requested-with] : [XMLHttpRequest]
+[user-agent] : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36]
+[ajax] : [true]
+[content-type] : [application/x-www-form-urlencoded; charset=UTF-8]
+[origin] : [http://travel.icia.co.kr:8088]
+[referer] : [http://travel.icia.co.kr:8088/index]
+[accept-encoding] : [gzip, deflate]
+[accept-language] : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[cookie] : [_gcl_au=1.1.712453762.1615095740; _fbp=fb.2.1615095740305.415577705; _ga=GA1.3.1944794745.1599895984; _ga_K1MBH8GF2W=GS1.1.1615102464.5.0.1615102464.60; JSESSIONID=093FF77739603CCE938763BEA4A47947]
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Post Parameters                                                              
+////////////////////////////////////////////////////////////////////////////////
+[userId2] : [chlgusrms96]
+[userPwd2] : [123456]
+////////////////////////////////////////////////////////////////////////////////
+
+[2021-03-23 14:13:10.201] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.201] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.203] [http-nio-8088-exec-4] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:13:10.242] [http-nio-8088-exec-4] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==>  Preparing: SELECT USER_ID2, NVL(USER_PWD2, '') AS USER_PWD2, NVL(USER_NAME2, '') AS USER_NAME2, NVL(USER_EMAIL2, '') AS USER_EMAIL2, NVL(STATUS2, 'N') AS STATUS2, NVL(TO_CHAR(REG_DATE2, 'YYYY.MM.DD HH24:MI:SS'), '') AS REG_DATE2, NVL(GENDER2, '') AS GENDER2, NVL(USER_BIRTH2, '') AS USER_BIRTH2 FROM TBL_USER2 WHERE USER_ID2 = ?
+[2021-03-23 14:13:10.243] [http-nio-8088-exec-4] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==> Parameters: chlgusrms96(String)
+[2021-03-23 14:13:10.306] [http-nio-8088-exec-4] DEBUG c.icia.web.dao.UserDao2.userSelect2 - <==      Total: 1
+[2021-03-23 14:13:10.375] [http-nio-8088-exec-4] DEBUG c.i.web.controller.UserController2 - [UserController2] /user2/login2 response
+{
+  "code": 0,
+  "msg": "Success",
+  "data": null,
+  "hiBoard": null
+}
+[2021-03-23 14:13:10.391] [http-nio-8088-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2021-03-23 14:13:10.391] [http-nio-8088-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.icia.web.model.Response@7710a5e4]
+[2021-03-23 14:13:10.399] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging end                                                              #
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - # [request url]          : [/user/login2]
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - # [elapse time (second)] : [0.199]
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.400] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:10.442] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "FORWARD" dispatch for GET "/mainHome", parameters={}
+[2021-03-23 14:13:10.443] [http-nio-8088-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.icia.web.controller.IndexController#mainHome(ModelMap, HttpServletRequest, HttpServletResponse)
+[2021-03-23 14:13:10.444] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.444] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging start [/mainHome]
+[2021-03-23 14:13:10.444] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.446] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - 
+////////////////////////////////////////////////////////////////////////////////
+[Remote IP] : [127.0.0.1]
+[Locale]    : [ko_KR]
+[URL]       : [http://travel.icia.co.kr:8088/mainHome]
+[URI]       : [/mainHome]
+[Method]    : [GET]
+[Protocol]  : [HTTP/1.1]
+[Referer]   : [http://travel.icia.co.kr:8088/index]
+////////////////////////////////////////////////////////////////////////////////
+// Headers                                                                      
+////////////////////////////////////////////////////////////////////////////////
+[host] : [travel.icia.co.kr:8088]
+[connection] : [keep-alive]
+[upgrade-insecure-requests] : [1]
+[user-agent] : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36]
+[accept] : [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[referer] : [http://travel.icia.co.kr:8088/index]
+[accept-encoding] : [gzip, deflate]
+[accept-language] : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[cookie] : [_gcl_au=1.1.712453762.1615095740; _fbp=fb.2.1615095740305.415577705; _ga=GA1.3.1944794745.1599895984; _ga_K1MBH8GF2W=GS1.1.1615102464.5.0.1615102464.60; JSESSIONID=093FF77739603CCE938763BEA4A47947; USER_ID2=63686c677573726d733936]
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Get Parameters                                                               
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+
+[2021-03-23 14:13:10.446] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.446] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.446] [http-nio-8088-exec-1] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:13:10.447] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==>  Preparing: SELECT USER_ID2, NVL(USER_PWD2, '') AS USER_PWD2, NVL(USER_NAME2, '') AS USER_NAME2, NVL(USER_EMAIL2, '') AS USER_EMAIL2, NVL(STATUS2, 'N') AS STATUS2, NVL(TO_CHAR(REG_DATE2, 'YYYY.MM.DD HH24:MI:SS'), '') AS REG_DATE2, NVL(GENDER2, '') AS GENDER2, NVL(USER_BIRTH2, '') AS USER_BIRTH2 FROM TBL_USER2 WHERE USER_ID2 = ?
+[2021-03-23 14:13:10.447] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==> Parameters: chlgusrms96(String)
+[2021-03-23 14:13:10.485] [http-nio-8088-exec-1] DEBUG c.icia.web.dao.UserDao2.userSelect2 - <==      Total: 1
+[2021-03-23 14:13:10.577] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - View name '/travel/mainHome', model {user2=com.icia.web.model.User2@e1c524e, org.springframework.validation.BindingResult.user2=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[2021-03-23 14:13:10.577] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/views/travel/mainHome.jsp]
+[2021-03-23 14:13:10.841] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.841] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging end                                                              #
+[2021-03-23 14:13:10.841] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.841] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # [request url]          : [/mainHome]
+[2021-03-23 14:13:10.843] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - # [elapse time (second)] : [0.398]
+[2021-03-23 14:13:10.843] [http-nio-8088-exec-1] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:13:10.843] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "FORWARD" dispatch, status 200
+[2021-03-23 14:13:10.980] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/css/bootstrap.min.css", parameters={}
+[2021-03-23 14:13:10.981] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.005] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.css", parameters={}
+[2021-03-23 14:13:11.007] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/assets/owl.carousel.min.css", parameters={}
+[2021-03-23 14:13:11.010] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.006] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/line-awesome/css/line-awesome.min.css", parameters={}
+[2021-03-23 14:13:11.005] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/icofont.min.css", parameters={}
+[2021-03-23 14:13:11.016] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.009] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.011] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/style.css", parameters={}
+[2021-03-23 14:13:11.013] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.020] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.049] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.078] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.081] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.085] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.110] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/jquery-3.5.1.min.js", parameters={}
+[2021-03-23 14:13:11.112] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.117] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.117] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.124] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/icia.common.js", parameters={}
+[2021-03-23 14:13:11.125] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.138] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:11.180] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.178] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:11.188] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.179] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:11.182] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:11.195] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.192] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.190] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.200] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:11.203] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.230] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.234] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:11.237] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.271] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.273] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:11.274] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.276] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.280] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/main.js", parameters={}
+[2021-03-23 14:13:11.281] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.286] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.290] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.291] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.319] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.328] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.329] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.370] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:11.371] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.399] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:11.400] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.400] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.401] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:11.402] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.405] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:11.406] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.457] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.459] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.469] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/jquery-sticky/jquery.sticky.js", parameters={}
+[2021-03-23 14:13:11.470] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.471] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/venobox/venobox.min.js", parameters={}
+[2021-03-23 14:13:11.472] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.493] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.496] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.531] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.538] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/waypoints/jquery.waypoints.min.js", parameters={}
+[2021-03-23 14:13:11.538] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/counterup/counterup.min.js", parameters={}
+[2021-03-23 14:13:11.538] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.539] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.553] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:11.554] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.558] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:11.560] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.564] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:11.565] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.566] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/hiassets/js/main.js", parameters={}
+[2021-03-23 14:13:11.569] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.577] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.578] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.588] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.595] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.602] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.625] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/jeju.png", parameters={}
+[2021-03-23 14:13:11.626] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/busan.png", parameters={}
+[2021-03-23 14:13:11.626] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.626] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.627] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/gapyeong.png", parameters={}
+[2021-03-23 14:13:11.631] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.653] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.671] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.674] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.680] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.688] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/incheon.png", parameters={}
+[2021-03-23 14:13:11.689] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.691] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/gyeongju.png", parameters={}
+[2021-03-23 14:13:11.692] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.702] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/seoul.png", parameters={}
+[2021-03-23 14:13:11.703] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.707] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/aa.png", parameters={}
+[2021-03-23 14:13:11.708] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.727] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.732] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/bb.png", parameters={}
+[2021-03-23 14:13:11.733] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.741] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/cc.png", parameters={}
+[2021-03-23 14:13:11.742] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.748] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.761] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.766] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.769] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.789] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.821] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/hanBanner.jpg", parameters={}
+[2021-03-23 14:13:11.822] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.869] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/travel.png", parameters={}
+[2021-03-23 14:13:11.870] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:11.891] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.906] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:11.974] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/fonts/icofont.woff2", parameters={}
+[2021-03-23 14:13:11.974] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:12.002] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.711] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/icofont.min.css", parameters={}
+[2021-03-23 14:13:13.713] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.711] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/css/bootstrap.min.css", parameters={}
+[2021-03-23 14:13:13.713] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/line-awesome/css/line-awesome.min.css", parameters={}
+[2021-03-23 14:13:13.716] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.719] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.712] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.css", parameters={}
+[2021-03-23 14:13:13.723] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.751] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.756] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.756] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.759] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.808] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/style.css", parameters={}
+[2021-03-23 14:13:13.809] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.808] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/assets/owl.carousel.min.css", parameters={}
+[2021-03-23 14:13:13.814] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:13:13.819] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.811] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/jquery-3.5.1.min.js", parameters={}
+[2021-03-23 14:13:13.812] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/icia.common.js", parameters={}
+[2021-03-23 14:13:13.817] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.862] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.822] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:13:13.855] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.856] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.868] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.884] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.886] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.891] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.912] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.945] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:13:13.946] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.950] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.959] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:13:13.960] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.960] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:13:13.961] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.967] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.991] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:13:14.004] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.994] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/main.js", parameters={}
+[2021-03-23 14:13:13.989] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:13:14.005] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:13.983] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:13.983] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:14.006] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:14.027] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:14.028] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:14.030] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:14.290] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/cal.png", parameters={}
+[2021-03-23 14:13:14.291] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:14.320] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:13:17.130] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/driveBanner.jpg", parameters={}
+[2021-03-23 14:13:17.131] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:13:17.159] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:55:16.476] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/cal.png", parameters={}
+[2021-03-23 14:55:16.479] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:55:16.488] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:55:17.854] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/cal.png", parameters={}
+[2021-03-23 14:55:17.856] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:55:17.861] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:12.219] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/travel/join3", parameters={masked}
+[2021-03-23 14:56:12.220] [http-nio-8088-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.icia.web.controller.PlanMakeController#join3(ModelMap, HttpServletRequest, HttpServletResponse)
+[2021-03-23 14:56:12.220] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:12.221] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging start [/travel/join3]
+[2021-03-23 14:56:12.221] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:12.232] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - 
+////////////////////////////////////////////////////////////////////////////////
+[Remote IP] : [127.0.0.1]
+[Locale]    : [ko_KR]
+[URL]       : [http://travel.icia.co.kr:8088/travel/join3]
+[URI]       : [/travel/join3]
+[Method]    : [POST]
+[Protocol]  : [HTTP/1.1]
+[Referer]   : [http://travel.icia.co.kr:8088/calendar/calendar.jsp]
+////////////////////////////////////////////////////////////////////////////////
+// Headers                                                                      
+////////////////////////////////////////////////////////////////////////////////
+[host] : [travel.icia.co.kr:8088]
+[connection] : [keep-alive]
+[content-length] : [73]
+[cache-control] : [max-age=0]
+[upgrade-insecure-requests] : [1]
+[origin] : [http://travel.icia.co.kr:8088]
+[content-type] : [application/x-www-form-urlencoded]
+[user-agent] : [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36]
+[accept] : [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9]
+[referer] : [http://travel.icia.co.kr:8088/calendar/calendar.jsp]
+[accept-encoding] : [gzip, deflate]
+[accept-language] : [ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7]
+[cookie] : [_gcl_au=1.1.712453762.1615095740; _fbp=fb.2.1615095740305.415577705; _ga=GA1.3.1944794745.1599895984; _ga_K1MBH8GF2W=GS1.1.1615102464.5.0.1615102464.60; JSESSIONID=093FF77739603CCE938763BEA4A47947; USER_ID2=63686c677573726d733936]
+////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+// Post Parameters                                                              
+////////////////////////////////////////////////////////////////////////////////
+[pTitle] : [인천여행]
+[pStart] : [20210323]
+[pEnd] : [20210324]
+////////////////////////////////////////////////////////////////////////////////
+
+[2021-03-23 14:56:12.233] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:12.233] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # [/travel/join3] : [인증체크] 
+[2021-03-23 14:56:12.233] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # [Cookie] : [chlgusrms96]
+[2021-03-23 14:56:12.235] [http-nio-8088-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:56:12.492] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==>  Preparing: SELECT USER_ID2, NVL(USER_PWD2, '') AS USER_PWD2, NVL(USER_NAME2, '') AS USER_NAME2, NVL(USER_EMAIL2, '') AS USER_EMAIL2, NVL(STATUS2, 'N') AS STATUS2, NVL(TO_CHAR(REG_DATE2, 'YYYY.MM.DD HH24:MI:SS'), '') AS REG_DATE2, NVL(GENDER2, '') AS GENDER2, NVL(USER_BIRTH2, '') AS USER_BIRTH2 FROM TBL_USER2 WHERE USER_ID2 = ?
+[2021-03-23 14:56:12.493] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.UserDao2.userSelect2 - ==> Parameters: chlgusrms96(String)
+[2021-03-23 14:56:12.596] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.UserDao2.userSelect2 - <==      Total: 1
+[2021-03-23 14:56:12.597] [http-nio-8088-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:56:12.597] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.AdminDao.adminSelect - ==>  Preparing: SELECT ADMIN_ID, NVL(ADMIN_PWD, '') AS ADMIN_PWD FROM ADMIN WHERE ADMIN_ID = ?
+[2021-03-23 14:56:12.598] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.AdminDao.adminSelect - ==> Parameters: chlgusrms96(String)
+[2021-03-23 14:56:12.697] [http-nio-8088-exec-9] DEBUG c.icia.web.dao.AdminDao.adminSelect - <==      Total: 0
+[2021-03-23 14:56:12.697] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:12.700] [http-nio-8088-exec-9] DEBUG o.s.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+[2021-03-23 14:56:12.700] [http-nio-8088-exec-9] DEBUG c.i.w.d.P.planMakeInsert2!selectKey - ==>  Preparing: SELECT P_NO_SEQ.NEXTVAL FROM DUAL
+[2021-03-23 14:56:12.701] [http-nio-8088-exec-9] DEBUG c.i.w.d.P.planMakeInsert2!selectKey - ==> Parameters: 
+[2021-03-23 14:56:12.802] [http-nio-8088-exec-9] DEBUG c.i.w.d.P.planMakeInsert2!selectKey - <==      Total: 1
+[2021-03-23 14:56:12.802] [http-nio-8088-exec-9] DEBUG c.i.w.d.PlanMakeDao.planMakeInsert2 - ==>  Preparing: INSERT INTO PLAN_MAKE ( P_NO_SEQ, USER_ID2, P_TITLE, REG_DATE2, P_START, P_END ) VALUES ( ?, ?, ?, SYSDATE, ?, ? )
+[2021-03-23 14:56:12.804] [http-nio-8088-exec-9] DEBUG c.i.w.d.PlanMakeDao.planMakeInsert2 - ==> Parameters: 25(Long), chlgusrms96(String), 인천여행(String), 20210323(String), 20210324(String)
+[2021-03-23 14:56:12.941] [http-nio-8088-exec-9] DEBUG c.i.w.d.PlanMakeDao.planMakeInsert2 - <==    Updates: 1
+[2021-03-23 14:56:12.943] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.view.JstlView - View name '/travel/join3', model {pNoSeq=25, userId2=chlgusrms96, pTitle=인천여행, regDate2=, pStart=20210323, pEnd=20210324}
+[2021-03-23 14:56:12.943] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.view.JstlView - Forwarding to [/WEB-INF/views/travel/join3.jsp]
+[2021-03-23 14:56:17.246] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:17.251] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # Logging end                                                              #
+[2021-03-23 14:56:17.252] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:17.252] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # [request url]          : [/travel/join3]
+[2021-03-23 14:56:17.253] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - # [elapse time (second)] : [5.026]
+[2021-03-23 14:56:17.253] [http-nio-8088-exec-9] DEBUG c.i.web.interceptor.AuthInterceptor - ############################################################################
+[2021-03-23 14:56:17.254] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.312] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/css/bootstrap.min.css", parameters={}
+[2021-03-23 14:56:17.312] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/icofont/icofont.min.css", parameters={}
+[2021-03-23 14:56:17.312] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.312] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.320] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.css", parameters={}
+[2021-03-23 14:56:17.321] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.321] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/line-awesome/css/line-awesome.min.css", parameters={}
+[2021-03-23 14:56:17.324] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.338] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.344] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.345] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.350] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.355] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/assets/owl.carousel.min.css", parameters={}
+[2021-03-23 14:56:17.356] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.356] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/style.css", parameters={}
+[2021-03-23 14:56:17.357] [http-nio-8088-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.363] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.369] [http-nio-8088-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.374] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/jquery-3.5.1.min.js", parameters={}
+[2021-03-23 14:56:17.375] [http-nio-8088-exec-10] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.377] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/icia.common.js", parameters={}
+[2021-03-23 14:56:17.380] [http-nio-8088-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.389] [http-nio-8088-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.393] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery/jquery.min.js", parameters={}
+[2021-03-23 14:56:17.394] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.396] [http-nio-8088-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.409] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.410] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/bootstrap/js/bootstrap.bundle.min.js", parameters={}
+[2021-03-23 14:56:17.411] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/jquery.easing/jquery.easing.min.js", parameters={}
+[2021-03-23 14:56:17.411] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.413] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/aos/aos.js", parameters={}
+[2021-03-23 14:56:17.413] [http-nio-8088-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.419] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/owl.carousel/owl.carousel.min.js", parameters={}
+[2021-03-23 14:56:17.439] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.413] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/php-email-form/validate.js", parameters={}
+[2021-03-23 14:56:17.441] [http-nio-8088-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.438] [http-nio-8088-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.445] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.447] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/css/joinStyle.css", parameters={}
+[2021-03-23 14:56:17.448] [http-nio-8088-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.456] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.457] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/js/main.js", parameters={}
+[2021-03-23 14:56:17.457] [http-nio-8088-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.418] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/vendor/isotope-layout/isotope.pkgd.min.js", parameters={}
+[2021-03-23 14:56:17.462] [http-nio-8088-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.469] [http-nio-8088-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.474] [http-nio-8088-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.476] [http-nio-8088-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.523] [http-nio-8088-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.527] [http-nio-8088-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.527] [http-nio-8088-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+[2021-03-23 14:56:17.800] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/resources/images/travel.png", parameters={}
+[2021-03-23 14:56:17.801] [http-nio-8088-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["/WEB-INF/views/resources/"]
+[2021-03-23 14:56:17.813] [http-nio-8088-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
